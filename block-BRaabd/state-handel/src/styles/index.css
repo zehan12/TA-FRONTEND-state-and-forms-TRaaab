@@ -7,3 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
+
+button {
+  padding: 20px;
+  background-color: red;
+  color: wheat;
+  border: none;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.active {
+  background-color: hotpink;
+}
