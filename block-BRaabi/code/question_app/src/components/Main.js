@@ -22,18 +22,11 @@ class Main extends React.Component {
                     <div key={i} className={ this.state.index === i ? "as": "qs" }>
                         <h3>{ele.Q}</h3>
                         <button onClick={()=>{
-                            this.setState({
-                                index:i,
-                                name: "OPEN"
+                            this.setState({ index : this.state.index === i ? null : i,
+                                name: this.state.index === i ? "CLOSED" : "OPENED"
                             })
                             }
                         }
-                        onDoubleClick={ ()=>{
-                            this.setState({
-                                index:NaN,
-                                name: "CLOSED"
-                            })
-                        }}
                         >
                             <i>{ this.state.index === i ? "👍 ": "👎 " } </i></button>
                     </div>
