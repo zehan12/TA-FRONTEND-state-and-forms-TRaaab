@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #baedff;
+  opacity: 0.9;
+  background-image:  linear-gradient(30deg, #c6dbee 12%, transparent 12.5%, transparent 87%, #c6dbee 87.5%, #c6dbee), linear-gradient(150deg, #c6dbee 12%, transparent 12.5%, transparent 87%, #c6dbee 87.5%, #c6dbee), linear-gradient(30deg, #c6dbee 12%, transparent 12.5%, transparent 87%, #c6dbee 87.5%, #c6dbee), linear-gradient(150deg, #c6dbee 12%, transparent 12.5%, transparent 87%, #c6dbee 87.5%, #c6dbee), linear-gradient(60deg, #c6dbee77 25%, transparent 25.5%, transparent 75%, #c6dbee77 75%, #c6dbee77), linear-gradient(60deg, #c6dbee77 25%, transparent 25.5%, transparent 75%, #c6dbee77 75%, #c6dbee77);
+  background-size: 8px 14px;
+  background-position: 0 0, 0 0, 4px 7px, 4px 7px, 0 0, 4px 7px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: black;
+}
